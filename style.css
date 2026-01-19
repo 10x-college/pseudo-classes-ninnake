@@ -1,0 +1,154 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.logo {
+  display: inline-block;
+  width: 89px;
+  height: 56px;
+  font-size: 45px;
+  font-family: "Quicksand";
+  font-weight: 700;
+  text-decoration: none;
+  padding: 15px 25px;
+  span:first-child {
+    color: #3d8493;
+  }
+
+  span:nth-child(2) {
+    color: #d89f65;
+  }
+  span:last-child {
+    color: #4a5c2f;
+  }
+}
+.search-box {
+  display: inline-block;
+  padding: 0px 100px;
+  margin-top: 5px;
+  vertical-align: 10px;
+
+  input {
+    display: inline-block;
+    font-size: 15px;
+    color: #89928e;
+    width: 357px;
+    height: 58px;
+    background-color: #ecf3f5;
+    padding-left: 25px;
+
+    border-radius: 10px;
+    border-style: none;
+  }
+}
+.nav-bar {
+  .add-table:hover {
+    opacity: 0.9;
+    box-shadow: 2px 5px 9px #89928e;
+  }
+  display: inline-block;
+
+  padding-left: 350px;
+  img {
+    vertical-align: 5px;
+    padding-right: 10px;
+  }
+  .left-nav {
+    display: inline-block;
+    button {
+      background-color: #b1ced4;
+      width: 175px;
+      height: 58px;
+      border-radius: 10px;
+      border-style: none;
+      margin-left: 20px;
+      padding-top: -5px;
+
+      color: #2c3832;
+
+      vertical-align: 10px;
+      font-family: "Quicksand";
+      font-size: 16px;
+    }
+  }
+  .calendar-date {
+    display: inline-block;
+    opacity: 0.7;
+    vertical-align: 10px;
+  }
+}
+.line {
+  margin-top: 15px;
+  border: 1px solid #eceded;
+}
+.menu-boxes {
+  .food-box-first-row {
+    padding: 40px 300px 0px 200px;
+    li:hover {
+      opacity: 0.9;
+      box-shadow: 2px 5px 9px #3d8493;
+    }
+    li {
+      .import-imgs {
+        border-radius: 20px 20px 0px 0px;
+      }
+      margin-bottom: 25px;
+      .allergens {
+        width: 23px;
+        height: 23px;
+        border-radius: 50%;
+        background-color: #e0b284;
+        span {
+          font-size: 14px;
+          padding: 3px 3px;
+          text-align: center;
+        }
+      }
+      .category {
+        font-family: "Quicksand";
+        font-size: 12px;
+        font-weight: 500;
+        margin-right: 60px;
+        padding-left: 10px;
+      }
+      h3 {
+        font-size: 17px;
+        font-family: "Quicksand";
+        font-weight: 600;
+        text-align: center;
+      }
+      margin-left: 25px;
+      background-color: #d8e6e9;
+      img {
+        width: 203px;
+        height: 143px;
+      }
+      display: inline-block;
+      width: 203px;
+      height: 214px;
+
+      border-radius: 15px;
+    }
+  }
+}
+.footer-menu {
+  background-color: #eaf0f0;
+  li {
+    color: #a9a9a9;
+    display: inline-block;
+    width: 158px;
+    height: 58px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px 50px 20px 120px;
+  }
+  li:hover {
+    background-color: #4a5c2f;
+    color: #ecf3f5;
+    opacity: 0.9;
+    box-shadow: 2px 5px 9px #232c17;
+  }
+}

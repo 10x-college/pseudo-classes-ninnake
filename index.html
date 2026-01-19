@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POS Menu</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="logo">
+        <span>P</span><span>O</span><span>S</span>
+      </a>
+      <form class="search-box">
+        <input
+          name="search-bar"
+          type="search"
+          placeholder="Search product or any order..."
+          required
+        />
+      </form>
+      <nav class="nav-bar">
+        <img alt="iconofdate" src="dateIcon.png" />
+        <form class="left-nav">
+          <div class="calendar-date">
+            <input type="date" required />
+            <input type="time" />
+          </div>
+          <button class="add-table">
+            <img src="buttonIcon.png" alt="submitIcon" />
+            ADD TABLE
+          </button>
+        </form>
+      </nav>
+      <hr class="line" />
+    </header>
+    <main>
+      <div class="menu-boxes">
+        <ul class="food-box-first-row">
+          <li>
+            <img src="box1.png" alt="chicken-wings" />
+            <h3>CHICKEN WINGS</h3>
+            <span class="category">category:</span>
+            <span class="allergens"><span>N</span></span>
+            <span class="spicy">&#127798;&#65039; &#127798;&#65039;</span>
+          </li>
+          <li>
+            <img src="box2.png" alt="french-fries" />
+            <h3>FRENCH FRIES</h3>
+            <span class="category">category:</span>
+            <span class="allergens" style="color: white"><span>G</span></span>
+          </li>
+          <li>
+            <img src="box3.png" alt="summer-salad" />
+            <h3>SUMMER SALAD</h3>
+            <span class="category">category:</span>
+            <span
+              class="allergens"
+              style="background-color: #a2774c; color: white"
+              ><span>N</span></span
+            >
+            <span class="spicy">&#127798;&#65039;</span>
+          </li>
+          <li>
+            <img src="box3.png" alt="vegan-salad" />
+            <h3>VEGAN SALAD</h3>
+            <span class="category">category:</span>
+            <span class="allergens" style="background-color: #eaf0f0"
+              ><span>0<sub>%</sub></span></span
+            >
+            <span class="spicy">&#127798;&#65039;</span>
+          </li>
+          <!--start of second row-->
+          <li>
+            <img src="avocadoT.png" alt="avocado-bruscheta" />
+            <h3>AVOCADO BRUSCHETTA</h3>
+            <span class="category">category:</span>
+            <span
+              class="allergens"
+              style="background-color: #e0b284; color: white"
+              ><span>G</span></span
+            >
+            <span class="spicy">&#127798;&#65039;&#127798;&#65039;</span>
+          </li>
+          <li>
+            <img src="bread.png" alt="garlic-bread-slices" />
+            <h3>GARLIC BREAD SLICES</h3>
+            <span class="category">category:</span>
+            <span
+              class="allergens"
+              style="background-color: #e0b284; color: white"
+              ><span>G</span></span
+            >
+          </li>
+          <li>
+            <img src="rolls.png" alt="crispy-spring-rolls" />
+            <h3>CRISPY SPRING ROLLS</h3>
+            <span class="category">category:</span>
+            <span
+              class="allergens"
+              style="background-color: #e0b284; color: white"
+              ><span>G</span></span
+            >
+            <span class="spicy">&#127798;&#65039;&#127798;&#65039;</span>
+          </li>
+          <li>
+            <img
+              class="import-imgs"
+              src="MozzarellaSticks.jpeg"
+              alt="mozzarella-sticks"
+            />
+            <h3>MOZZARELLA STICKS</h3>
+            <span class="category">category:</span>
+            <span
+              class="allergens"
+              style="background-color: #e0b284; color: white"
+              ><span>G</span></span
+            >
+          </li>
+          <!--third row-->
+          <li>
+            <img
+              class="import-imgs"
+              src="sandwiches.jpg"
+              alt="mini-sandwiches"
+            />
+            <h3>MINI SANDWICHES</h3>
+            <span class="category">category:</span>
+            <span class="allergens"><span>N</span></span>
+            <span class="spicy">&#127798;&#65039; </span>
+          </li>
+          <li>
+            <img src="tacos.jpeg" class="import-imgs" alt="beef-taco" />
+            <h3>BEEF TACO</h3>
+            <span class="category">category:</span>
+            <span class="allergens"><span>N</span></span>
+            <span class="spicy">&#127798;&#65039; &#127798;&#65039;</span>
+          </li>
+          <li>
+            <img src="pasta.jpeg" class="import-imgs" alt="pasta-pomodoro" />
+            <h3>PASTA POMODORO</h3>
+            <span class="category">category:</span>
+            <span class="allergens"><span>G</span></span>
+            <span class="spicy">&#127798;&#65039;</span>
+          </li>
+          <li>
+            <img src="veganbowl.jpeg" class="import-imgs" alt="vegan-bowl" />
+            <h3>VEGAN BOWL</h3>
+            <span class="category">category:</span>
+            <span class="allergens" style="background-color: #eaf0f0"
+              ><span>0<sub>%</sub></span></span
+            >
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-menu">
+        <ul>
+          <li><h3>STARTER</h3></li>
+          <li><h3>MAIN COURSE</h3></li>
+          <li><h3>DRINKS</h3></li>
+          <li><h3>DESSERTS</h3></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
